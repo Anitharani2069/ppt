@@ -1,0 +1,105 @@
+What is a database
+Database is a organized collection of data. For example a database of a college would be having a collection of data such as –
+1. Personal records of Students
+2. Students performance history
+3. Teachers data
+4. Financial department data etc.
+
+Database Management System (DBMS)
+A database management system is a software application which is used for managing different databases. It helps us to create and manage database. With the help of DBMS we take care following tasks –
+1. Data Security
+2. Data Backup
+3. Manages huge amount of data
+4. Data export & import
+5. Serving multiple concurrent database requests
+6. Gives us a way to manage the data using programming languages.
+
+
+Types of Databases
+There are two types of databases –
+1. Relational Database
+2. Non-relational Database
+
+Non-relational databases:
+Data is not organized in form of tables. Data is stored in form of key & value pairs. The examples of non-relational databases are: JSON & XML.
+
+We cannot interact with non-relational databases using SQL.
+
+Relational Databases:
+In relational database, data is organized in form of tables. A table contains rows and columns of data. Table has a unique key to identify each row of the table.
+
+SQL is used to interact with relational databases. We often refer relational database as SQL database.
+
+What is SQL?
+1. SQL stands for Structured Query Language, which is a standardised language for interacting with RDBMS (Relational Database Management System). Some of the popular relational database example are: MySQL, Oracle, mariaDB, postgreSQL etc.
+
+2. SQL is used to perform C.R.U.D (Create, Retrieve, Update & Delete) operations on relational databases.
+
+3. SQL can also perform administrative tasks on database such as database security, backup, user management etc.
+
+4. We can create databases and tables inside database using SQL.
+
+
+
+
+
+The most successful marketers are data-driven, and one of the most important parts of being data-driven is being able to collect data from databases quickly. 
+SQL happens to be one of the best and most popular tools out there for doing just that.
+
+
+SQL stands for Structured Query Language, and it's used when companies have a ton of data that they want to manipulate in an easy and quick way.
+ If your company already stores data in a database, you may need to learn SQL to access the data. But not to worry -- you're in the right place to get started!
+
+Before we begin, make sure that you have a database management application that will allow you to pull data from your database.
+ Some options include MySQL Workbench or Sequel Pro. Start by downloading one of these options, 
+and then talk to your company about how to connect to your database.
+ The option that you choose will depend on your product's backend, so check with your product team to make sure you select the correct one.
+
+
+
+
+
+
+why use sql??
+The beauty of SQL is that anyone working at a company that stores data in a relational database can use it. 
+(And chances are, yours does.)
+
+If you work for a software company and want to pull usage data on your customers, you can do that using SQL.
+If you work for an ecommerce company that has data about customer purchases, you can use SQL to find out which customers are purchasing which products.
+ Of course, these are just a few of many, many examples.
+
+Think about it this way: Have you ever opened a very large data set in Excel, only for your computer to freeze or even shut down?
+ SQL allows you to access only certain parts of your data at a time so you don't have to download the data into a CSV, manipulate it, and possibly overload Excel.
+ In other words, SQL takes care of the data analysis that you may be used to doing in Excel. (If you want to dig into this aspect of SQL a bit more
+
+
+How to Write Simple SQL Queries
+Understand the hierarchy of your database
+Before you get started, it's important to become accustomed to your database and its hierarchy. 
+If you have multiple databases of data, you'll need to zero in on the location of the data you want to work with.
+
+For example, let's pretend we're working with multiple databases about people in the United States. 
+Type in the query "SHOW DATABASES;". Our results may show that you have a couple of databases for different locations, including one for New England.
+
+Within your database, you'll have different tables containing the data you want to work with.
+ Using the same example above, let's say we want to find out which information is contained in one of the databases.
+ If we use the query "SHOW TABLES in NewEngland;", we'll find that we have tables for each state in New England: people_connecticut, people_maine, people_massachusetts, people_newhampshire, people_rhodeisland, and people_vermont.
+
+Finally, you need to find out which fields are in the tables. Fields are the specific pieces of data that you can pull from your database. 
+For example, if you want to pull someone's address, the field name may not just be "address" -- it may be separated into address_city, address_state, address_zip. In order to figure this out, use the query "Describe people_massachusetts;".
+ That will provide a list of all of the data that you can pull using SQL.
+
+Let's do a quick review of the hierarchy using our New England example:
+
+Our database is: NewEngland.
+Our tables within that database are: people_connecticut, people_maine, people_massachusetts, people_newhampshire, people_rhodeisland, and people_vermont.
+Our fields within the people_massachusetts table include: address_city, address_state, address_zip, hair_color, first_name, and last_name.
+
+
+https://blog.hubspot.com/marketing/sql-tutorial-introduction
+
+
+
+
+
+
